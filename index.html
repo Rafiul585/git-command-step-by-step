@@ -14,6 +14,21 @@ Push an existing repository from the command line
     - git branch -M main
     - git push -u origin main
 
+Pull if need
+    - git pull origin main
+    
+Pull is equal to
+    - git fetch origin main
+    - git merge FETCH_HEAD
+
+
+if this fatal error: refusing to merge unrelated histories occur then 
+    - git pull origin main --allow-unrelated-histories
+
+
+
+
+
 Check Status
     - git status
 
